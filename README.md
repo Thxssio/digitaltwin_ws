@@ -4,6 +4,6 @@
 
 
 ```
-git clone 
+git clone https://github.com/Thxssio/digitaltwin_ws.git
 
 ```
