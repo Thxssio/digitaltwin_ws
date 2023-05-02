@@ -15,7 +15,7 @@ git clone https://github.com/Thxssio/digitaltwin_ws.git
 Install ROS2
 
 ```
-https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
 ```
 
