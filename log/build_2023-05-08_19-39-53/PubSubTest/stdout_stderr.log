@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/PubSubTest/PubSubTest.egg-info
+writing ../../build/PubSubTest/PubSubTest.egg-info/PKG-INFO
+writing dependency_links to ../../build/PubSubTest/PubSubTest.egg-info/dependency_links.txt
+writing entry points to ../../build/PubSubTest/PubSubTest.egg-info/entry_points.txt
+writing requirements to ../../build/PubSubTest/PubSubTest.egg-info/requires.txt
+writing top-level names to ../../build/PubSubTest/PubSubTest.egg-info/top_level.txt
+writing manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+reading manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+writing manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /digitaltwin_ws/build/PubSubTest/build
+creating /digitaltwin_ws/build/PubSubTest/build/lib
+creating /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+copying PubSubTest/pyPub.py -> /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+copying PubSubTest/__init__.py -> /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+copying /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest/pyPub.py -> /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+copying /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest/__init__.py -> /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+byte-compiling /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest/pyPub.py to pyPub.cpython-310.pyc
+byte-compiling /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /digitaltwin_ws/install/PubSubTest/share/ament_index
+creating /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index
+creating /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index/packages
+copying resource/PubSubTest -> /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index/packages
+copying package.xml -> /digitaltwin_ws/install/PubSubTest/share/PubSubTest
+running install_egg_info
+Copying ../../build/PubSubTest/PubSubTest.egg-info to /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest-0.0.0-py3.10.egg-info
+running install_scripts
+Installing digitaltwint_testpub script to /digitaltwin_ws/install/PubSubTest/lib/PubSubTest
+writing list of installed files to '/digitaltwin_ws/build/PubSubTest/install.log'

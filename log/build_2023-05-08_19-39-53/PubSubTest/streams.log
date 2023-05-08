@@ -1,0 +1,39 @@
+[1.926s] Invoking command in '/digitaltwin_ws/src/PubSubTest': PYTHONPATH=/digitaltwin_ws/build/PubSubTest/prefix_override:/digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/PubSubTest build --build-base /digitaltwin_ws/build/PubSubTest/build install --record /digitaltwin_ws/build/PubSubTest/install.log --single-version-externally-managed
+[2.581s] running egg_info
+[2.583s] creating ../../build/PubSubTest/PubSubTest.egg-info
+[2.584s] writing ../../build/PubSubTest/PubSubTest.egg-info/PKG-INFO
+[2.585s] writing dependency_links to ../../build/PubSubTest/PubSubTest.egg-info/dependency_links.txt
+[2.585s] writing entry points to ../../build/PubSubTest/PubSubTest.egg-info/entry_points.txt
+[2.586s] writing requirements to ../../build/PubSubTest/PubSubTest.egg-info/requires.txt
+[2.586s] writing top-level names to ../../build/PubSubTest/PubSubTest.egg-info/top_level.txt
+[2.587s] writing manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+[2.592s] reading manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+[2.595s] writing manifest file '../../build/PubSubTest/PubSubTest.egg-info/SOURCES.txt'
+[2.596s] running build
+[2.596s] running build_py
+[2.596s] creating /digitaltwin_ws/build/PubSubTest/build
+[2.597s] creating /digitaltwin_ws/build/PubSubTest/build/lib
+[2.597s] creating /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+[2.598s] copying PubSubTest/pyPub.py -> /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+[2.598s] copying PubSubTest/__init__.py -> /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest
+[2.599s] running install
+[2.600s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.600s]   warnings.warn(
+[2.601s] running install_lib
+[2.604s] creating /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+[2.605s] copying /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest/pyPub.py -> /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+[2.605s] copying /digitaltwin_ws/build/PubSubTest/build/lib/PubSubTest/__init__.py -> /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest
+[2.607s] byte-compiling /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest/pyPub.py to pyPub.cpython-310.pyc
+[2.609s] byte-compiling /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest/__init__.py to __init__.cpython-310.pyc
+[2.610s] running install_data
+[2.612s] creating /digitaltwin_ws/install/PubSubTest/share/ament_index
+[2.612s] creating /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index
+[2.613s] creating /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index/packages
+[2.613s] copying resource/PubSubTest -> /digitaltwin_ws/install/PubSubTest/share/ament_index/resource_index/packages
+[2.614s] copying package.xml -> /digitaltwin_ws/install/PubSubTest/share/PubSubTest
+[2.614s] running install_egg_info
+[2.619s] Copying ../../build/PubSubTest/PubSubTest.egg-info to /digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages/PubSubTest-0.0.0-py3.10.egg-info
+[2.623s] running install_scripts
+[2.696s] Installing digitaltwint_testpub script to /digitaltwin_ws/install/PubSubTest/lib/PubSubTest
+[2.697s] writing list of installed files to '/digitaltwin_ws/build/PubSubTest/install.log'
+[2.808s] Invoked command in '/digitaltwin_ws/src/PubSubTest' returned '0': PYTHONPATH=/digitaltwin_ws/build/PubSubTest/prefix_override:/digitaltwin_ws/install/PubSubTest/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/PubSubTest build --build-base /digitaltwin_ws/build/PubSubTest/build install --record /digitaltwin_ws/build/PubSubTest/install.log --single-version-externally-managed

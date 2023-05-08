@@ -1,0 +1,6 @@
+source;share/PubSubTest/hook/pythonpath.ps1
+source;share/PubSubTest/hook/pythonpath.dsv
+source;share/PubSubTest/hook/pythonpath.sh
+source;share/PubSubTest/hook/ament_prefix_path.ps1
+source;share/PubSubTest/hook/ament_prefix_path.dsv
+source;share/PubSubTest/hook/ament_prefix_path.sh
