@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'PubSubTest'
+package_name = 'pubsubtest'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'DigitalTwinPub = pyPub:main',
-        'DigitalTwinSub = pySub:main',
+        'DigitalTwinPub = pyPub.publisher_member_function:main',
+        'DigitalTwinSub = pySub.subscriber_member_function:main',
         ],
     },
 )
