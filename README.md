@@ -27,7 +27,10 @@ https://integration-service.docs.eprosima.com/en/latest/
 https://github.com/eProsima/ROS2-SH.git
 
 ```
+ready!
+
+* PUB/SUB test
 
 doing...
 
-* PUB/SUB test
+* 
