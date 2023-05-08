@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'DigitalTwinPub = pyPub.publisher_member_function:main',
-        'DigitalTwinSub = pySub.subscriber_member_function:main',
+        'DigitalTwinPub = PubSubTest.pyPub:main',
+        'DigitalTwinSub = PubSubTest.pySub:main',
         ],
     },
 )
