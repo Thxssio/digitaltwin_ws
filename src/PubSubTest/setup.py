@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'pubsubtest'
+package_name = 'PubSubTest'
 
 setup(
     name=package_name,
