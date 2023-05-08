@@ -7,7 +7,7 @@ class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        self.publisher_ = self.create_publisher(String, 'DigitalTwinTopic', 10)
         timer_period = 0.5 
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
@@ -16,7 +16,7 @@ class MinimalPublisher(Node):
         msg = String()
         msg.data = 'Digital Twin : %d' % self.i
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.get_logger().info('Publicando: "%s"' % msg.data)
         self.i += 1
 
 
