@@ -1,29 +1,32 @@
-import sys
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
-class TalkerNode(Node):
+
+class MinimalPublisher(Node):
 
     def __init__(self):
-        super().__init__('Test_Sub_Node')
-        self.publisher = self.create_publisher(String, 'talker', 10)
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.5 
-        self.i = 0.0
-        self.timer_ = self.create_timer(timer_period, self.publish_message)
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.i = 0
 
-    def publish_message(self):
-        message = String()
-        message.data = 'Digital_Twin'
-        self.publisher.publish(message)
+    def timer_callback(self):
+        msg = String()
+        msg.data = 'Digital Twin : %d' % self.i
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.i += 1
 
 
 def main(args=None):
     rclpy.init(args=args)
-
-    minimal_publisher = TalkerNode()
+    minimal_publisher = MinimalPublisher()
     rclpy.spin(minimal_publisher)
+    minimal_publisher.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

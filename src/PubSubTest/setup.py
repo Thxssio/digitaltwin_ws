@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'digitaltwint_testpub = PubSubTest.pyPub:main'
+        'DigitalTwinPub = pyPub:main',
+        'DigitalTwinSub = pySub:main',
         ],
     },
 )
