@@ -33,4 +33,4 @@ ready!
 
 doing...
 
-* 
+*  integration of modules
