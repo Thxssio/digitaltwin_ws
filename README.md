@@ -29,7 +29,7 @@ https://github.com/eProsima/ROS2-SH.git
 ```
 ready!
 
-* PUB/SUB test
+- [x] PUB/SUB test
 
 doing...
 
